@@ -1,0 +1,21 @@
+{
+    "name": "python-platformio",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "files.insertFinalNewline": true,
+                "files.trimTrailingWhitespace": true
+            },
+            "extensions": [
+                "azuretools.vscode-docker",
+                "platformio.platformio-ide"
+            ]
+        }
+    }
+}
